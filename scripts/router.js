@@ -30,7 +30,7 @@ export default async function route() {
         } else {
             welcome()
         }
-    } else {
+    } else if () {
         welcome()
     }
 
