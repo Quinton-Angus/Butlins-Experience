@@ -1,25 +1,28 @@
 {
-    "expo": {
-        "name": "Butlins Experience",
-        "slug": "butlins-experience",
-        "scheme": "butlinsexperience",
-
-        "android": {
-            "package": "com.quintondev.butlinsexperience"
-        },
-
-        "ios": {
-            "bundleIdentifier": "com.quintondev.butlinsexperience"
-        },
-
-        "plugins": [
-            "expo-router",
-            [
-                "react-native-nitro-google-signin",
-                {
-                    "iosUrlScheme": "com.googleusercontent.apps.410842831628-sduhn5n1gnktsb4a5t7q7sk6hc130cd7"
-                }
-            ]
-        ]
+  "expo": {
+    "name": "Butlins Experience",
+    "slug": "butlins-experience",
+    "scheme": "butlinsexperience",
+    "android": {
+      "package": "com.quintondev.butlinsexperience"
+    },
+    "ios": {
+      "bundleIdentifier": "com.quintondev.butlinsexperience"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "react-native-nitro-google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.410842831628-sduhn5n1gnktsb4a5t7q7sk6hc130cd7"
+        }
+      ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "28948623-5e3b-45a8-9f5b-ddb8776133f8"
+      }
     }
+  }
 }
