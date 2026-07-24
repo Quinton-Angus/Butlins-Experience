@@ -2,7 +2,7 @@ import { Text, Image, View, Pressable, ImageBackground } from 'react-native'
 import Styles from '../../styles/welcome/welcomeScreen'
 import RedVector from  '../../Assets/welcome/RedVector.png'
 import Logo from '../../Assets/welcome/Logo.png'
-import script from '../../scripts/welcome'
+import openAuth from '../../scripts/welcome'
 
 export default function welcomeScreen() {
   return (
@@ -13,7 +13,7 @@ export default function welcomeScreen() {
       <ImageBackground style={Styles.imageBackground} source={RedVector}>
         <Text style={Styles.title} >Your holiday. Made easier</Text>
         <Text style={Styles.subTitle} >Log in to make your holiday a breeze</Text>
-        <Pressable style={Styles.continueBtn} onPress={script()} >
+        <Pressable style={Styles.continueBtn} onPress={openAuth} >
           <Text style={Styles.continueBtnText}>Continue →</Text>
         </Pressable>
         <View style={Styles.footerWrapper} >
