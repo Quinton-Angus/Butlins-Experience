@@ -1,3 +1,5 @@
 import * as linking from 'expo-linking'
 
-linking.openURL('https://butlins-experience.quintondev.com/auth')
+export default function openAuth() {
+  linking.openURL('https://butlins-experience.quintondev.com/auth')
+}
