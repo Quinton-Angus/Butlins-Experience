@@ -1,6 +1,6 @@
 import { Image } from 'react-native'
 import Styles from '../../styles/splash/splashScreen.js'
-import SplashIcon from '../../assets/splash/splashIcon.png'
+import SplashIcon from '../../Assets/splash/splashIcon.png'
 import { LinearGradient } from 'expo-linear-gradient'
 import { NavigationBar } from 'expo-navigation-bar'
 import { useEffect } from 'react'

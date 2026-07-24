@@ -1,7 +1,7 @@
 import { Text, Image, View, Pressable, ImageBackground } from 'react-native'
 import Styles from '../../styles/welcome/welcomeScreen'
-import RedVector from  '../../assets/welcome/RedVector.png'
-import Logo from '../../assets/welcome/Logo.png'
+import RedVector from  '../../Assets/welcome/RedVector.png'
+import Logo from '../../Assets/welcome/Logo.png'
 import script from '../../scripts/welcome'
 
 export default function welcomeScreen() {
